@@ -5,17 +5,8 @@ Como Contribuir com o Projeto
 
 Este projeto utiliza Git e GitHub para controle de versão. Para evitar conflitos e manter a organização do código, siga o fluxo de trabalho descrito abaixo.
 
-1. Faça um Fork ou Clone do Repositório
 
-Se você faz parte da equipe e possui acesso ao repositório, basta cloná-lo:
-
-git clone https://github.com/SEU-USUARIO/TrabalhoED.git
-
-Entre na pasta do projeto:
-
-cd TrabalhoED
-
-2. Mantenha sua Branch Atualizada
+1. Mantenha sua Branch Atualizada
 
 Antes de começar qualquer atividade, certifique-se de que sua cópia local está atualizada:
 
@@ -24,7 +15,7 @@ git pull origin main
 
 Isso garante que você estará trabalhando sobre a versão mais recente do projeto.
 
-3. Crie uma Branch para sua Tarefa
+2. Crie uma Branch para sua Tarefa
 
 Nunca desenvolva diretamente na branch main.
 
@@ -47,7 +38,7 @@ Correção de erro	     fix/	      fix/divisao-no
 Documentação	         docs/  	  docs/readme
 Refatoração	           refactor/  refactor/estrutura-no
 
-4. Desenvolva e Teste sua Implementação
+3. Desenvolva e Teste sua Implementação
 
 Implemente sua tarefa normalmente.
 
@@ -57,7 +48,7 @@ Verifique se o código compila.
 Teste as funcionalidades alteradas.
 Certifique-se de que não foram introduzidos erros em partes já implementadas.
 
-5. Adicione os Arquivos Modificados
+4. Adicione os Arquivos Modificados
 
 Após concluir a implementação:
 
@@ -66,7 +57,7 @@ git add .
 Ou adicione apenas os arquivos específicos:
 
 git add arquivo.c
-6. Faça um Commit Descritivo
+5. Faça um Commit Descritivo
 
 Utilize mensagens claras para facilitar o acompanhamento da evolução do projeto.
 
@@ -82,13 +73,13 @@ update
 teste
 mudanças
 commit final
-7. Envie sua Branch para o GitHub
+6. Envie sua Branch para o GitHub
 git push origin nome-da-branch
 
 Exemplo:
 
 git push origin feature/insercao-arvore-b
-8. Abra um Pull Request
+7. Abra um Pull Request
 
 Após enviar a branch:
 
@@ -108,7 +99,7 @@ Alterações realizadas:
 
 Observações:
 Necessário validar casos de teste com mais de 100 registros.
-9. Revisão e Aprovação
+8. Revisão e Aprovação
 
 Antes de realizar o merge:
 
